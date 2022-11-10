@@ -1,0 +1,180 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-width: 280px;
+    color: #242424;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+h1,h2,h3,h4,h5{
+    font-weight: 900;
+}
+
+.title{
+    visibility: hidden;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+main{
+    display: block;
+    background-color: #fff;
+}
+
+.container{
+    visibility: hidden;
+    max-width: 490px;
+    min-width: 280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+section.module p{
+    max-width: 450px;
+    min-width: 230px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+section.module:last-child{
+    margin-bottom: 0;
+}
+
+section.module h2{
+    margin-bottom: 40px;
+    font-size: 40px;
+
+}
+
+section.module.content{
+    padding: 40px 0;
+    background-color: #ece7d5;
+}
+
+
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+section.module.parallax:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0), 60%, #000 100%);
+    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0), 60%, #000 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0), 60%, #000 100%);
+}
+
+section.module.parallax-1{
+    background-image: url(../images/cerrado_logo.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+section.module.parallax-2{
+    background-image: url(../images/cerrado-vegetacao.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+section.module.parallax-3{
+    width: 100%;
+    background-image: url(../images/arvore_pequi.jpeg);
+   
+    background-position: center;
+    
+}
+
+section.module.parallax-4{
+    background-image: url(../images/flor_pequi.jpg);
+    width: 100%;
+    background-position: center;
+}
+
+section.module.parallax-5{
+    background-image: url(../images/cajuzinho-do-cerrado.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+section.module.parallax-6{
+    background-image: url(../images/anta.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+section.module.parallax-7{
+    background-image: url(../images/gaviao.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+section.module.parallax-8{
+    background-image: url(../images/Jaguatirica.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+section.module.parallax-9{
+    background-image: url(../images/Jararaquinha.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+section.module.parallax-10{
+    background-image: url(../images/lobo_guara.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+section.module.parallax-11{
+    background-image: url(../images/soldadinho.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+section.module.parallax-12{
+    background-image: url(../images/tamanduá-bandeira.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+section.module.parallax h1{
+    color: #fff;
+    text-align: center;
+    font-size: 70px;
+    z-index: 50;
+    text-transform: uppercase;
+}
